@@ -2,7 +2,8 @@
   "name": "faisalaffan-vue-extension-snippet",
   "displayName": "faisalaffan-vue-extension-snippet",
   "description": "Faisal Affan Vue Snippet",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "faisalaffan",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -17,7 +18,6 @@
   "contributes": {
     "snippets": [
       {
-        "language": "'javascript', 'vue', 'typescript'",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
