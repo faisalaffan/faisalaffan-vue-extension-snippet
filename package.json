@@ -1,0 +1,25 @@
+{
+  "name": "faisalaffan-vue-extension-snippet",
+  "displayName": "faisalaffan-vue-extension-snippet",
+  "description": "Faisal Affan Vue Snippet",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faisalaffan/faisalaffan-vue-extension-snippet"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript', 'vue', 'typescript'",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
